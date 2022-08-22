@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(5, 5, 5);
+}
+
+button:hover{
+    background-color: rgb(128, 126, 129);
+}
+
+header{
+    background-color: rgb(119, 119, 124)
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    font-size: 2.0em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.0;
+}
+
+header a{
+    padding: 5px 12px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#primerid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(/coder.png)
+  
+}
+
+#primerid h1{
+    color: white;
+}
+
+#primerid button{
+    font-size: 1.75em;
+}
+
+
+#nuestrosProductos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestrosProductos .containerProductos{
+    padding: 150px 12px;
+}
+
+#nuestrosProductos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#nuestrosProductos p{
+    display: none;
+}
+
+#nuestrosProductos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #primerid h1{
+        font-size: 5em;
+        color:black
+    }
+
+    #nuestrosProductos .Productos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestrosProductos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestrosProductos h2{
+        font-size: 4em;
+    }
+
+    #nuestrosProductos h3{
+        margin-top: 0;
+        color: black;
+    }
+
+    #nuestrosProductos .Productos{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-position-y: 0;
+        background-color: rgb(119, 119, 124)
+    }       
+
+footer .containers {
+    justify-content: flex-end;
+} 
+
